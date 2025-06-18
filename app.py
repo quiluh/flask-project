@@ -12,4 +12,20 @@ def create_connection():
         cursorclass=pymysql.cursors.DictCursor
     )
 
+@app.route("/")
+def Index():
+    pass
+
+@app.route("/add")
+def Add():
+    pass
+
+@app.route("/delete")
+def Delete():
+    pass
+
+@app.route("/edit")
+def Edit():
+    pass
+
 app.run(debug=True)
